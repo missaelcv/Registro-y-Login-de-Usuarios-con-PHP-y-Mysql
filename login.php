@@ -12,10 +12,12 @@
 <?php require 'partials/header.php' ?>
 
     <h1>Login</h1>
+    <span> or <a href="signup.php">SignUp</a></span>
 
     <form action="login.php" method="post">
     <input type="text" name="email" placeholder="Enter your Mail">
-    <input type="password" name="Password" placeholder="Enter Your Passoword">
-    <input type="submit" value="Send">
+    <input type="password" name="password" placeholder="Enter Your Passoword">
+    <input type="submit" value="send">
+    </form>
 </body>
 </html>
