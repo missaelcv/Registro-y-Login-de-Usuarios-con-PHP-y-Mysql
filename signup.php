@@ -10,7 +10,15 @@
 
 <?php require 'partials/header.php' ?>
 
-<h2>Hola </h2>
+<h2>SignUp </h2>
+<span> or <a href="login.php">Login</a></span>
+<form action="login.php" method="post">
+    <input type="text" name="email" placeholder="Enter your Mail">
+    <input type="password" name="password" placeholder="Enter Your Passoword">
+    <input type="password" name="confirm_password" placeholder="Enter Your Passoword">
+    <input type="submit" value="send">
+    </form>
+
     
 </body>
 </html>
