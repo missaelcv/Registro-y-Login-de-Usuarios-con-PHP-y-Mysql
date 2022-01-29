@@ -1,4 +1,3 @@
-
 <?php
 
 $server = 'localhost:3307';
